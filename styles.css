@@ -1,0 +1,46 @@
+h2 {
+    font-size: 35px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/1UUGEC0pDc77jBT8lE4DR4fqmDU/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2019/12/01/762/n/1922283/0ad1f94a5de3f5e7ac6a36.23387703_/i/baby-yoda-memes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+nav:hover {
+    background-color: blue;
+}
+
+.unordered-list-item {
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+#most-important-item {
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+#content-box {
+    height: 75px;
+    width: 75px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+#border-box {
+    height: 75px;
+    width: 75px;
+    border: 5px solid black;
+    /* padding: 10px; */
+    /* padding: 10px 0; */
+    /* padding: 10px 5px 15px 7px; */
+    /* margin: 50px; */
+    /* margin: 25px 50px; */
+    /* margin: 25px 0px 75px 50px; */
+    box-sizing: border-box;
+}

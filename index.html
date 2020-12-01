@@ -1,0 +1,70 @@
+<!-- Not an html tag, tells the browser what version of html is being used -->
+<!DOCTYPE html>
+<!-- The html element contains all of the pages html -->
+<html>
+    <!-- The head tag contains data about the website, including meta tags, the title tag, and link tags -->
+    <head>
+        <!-- Meta tags provide specific data from the website, such as a description, keywords, author, and viewport -->
+        <meta charset="UTF-8">
+        <meta name="description" content="The most awesome website">
+        <meta name="keywords" content="awesome,most awesome,best website">
+        <meta name="author" content="WR8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- The title tag is what shows up in the tab of the browser as well as the title that shows up in search results -->
+        <title>HTML/CSS ONE</title>
+        <!-- Link elements allow you to link to outside resources such as CSS files -->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            h1 {
+                font-size: 40px;
+                color: rebeccapurple;
+            }
+
+            p {
+                font-size: 25px;
+                color: red;
+            }
+        </style>
+    </head>
+    <!-- The body contains elements that make up the actual structure of your web page -->
+    <body>
+        <header style="color: blue;background-color: bisque;">I am a header</header>
+        <nav>
+            <a href="https://www.google.com">Google</a>
+        </nav>
+        <section>
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+            <h4>Heading Four</h4>
+            <h5>Heading Five</h5>
+            <h6>Heading Six</h6>
+            <p>I am a paragraph tag, <br/>and I can contain <span>span tags</span></p>
+        </section>
+        <div>
+            <ul>
+                <li class='unordered-list-item'>item one</li>
+                <li class='unordered-list-item'>item two</li>
+                <li class='unordered-list-item'>item three</li>
+            </ul>
+            <ol>
+                <li>item one</li>
+                <li id='most-important-item'>item two</li>
+                <li>item three</li>
+            </ol>
+            <input type='password' placeholder='Username'/>
+            <button>Click Me!</button>
+            <img src='https://media1.popsugar-assets.com/files/thumbor/1UUGEC0pDc77jBT8lE4DR4fqmDU/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2019/12/01/762/n/1922283/0ad1f94a5de3f5e7ac6a36.23387703_/i/baby-yoda-memes.jpg' alt='Baby Yoda drinking some choccy milk'/>
+            <form>
+                <input placeholder="Username"/>
+                <input type="password" placeholder="Password"/>
+                <button>Log in</button>
+            </form>
+        </div>
+        <footer>
+            <div id='content-box'></div>
+            <div id='border-box'>This is some dummy content</div>
+        </footer>
+    </body>
+</html>
